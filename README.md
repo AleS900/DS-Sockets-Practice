@@ -8,6 +8,7 @@ Los sockets son un mecanismo que nos permite establecer un enlace entre dos prog
     <img src="https://programacionextrema.com/wp-content/uploads/2015/10/sockets-java.jpg" />
  </p>
 
+## Sistema de Chat en Tiempo Real - Sockets
 Los sockets han sido tradicionalmente la solución en torno a la cual se diseñan la mayoría de los sistemas de chat en tiempo real, proporcionando un canal de comunicación bidireccional entre un cliente y un servidor. 
 
 Esto significa que el servidor puede enviar mensajes a los clientes. Cada vez que escribe un mensaje de chat, la idea es que el servidor lo obtenga y lo envíe a todos los demás clientes conectados.

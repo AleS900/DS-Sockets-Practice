@@ -17,9 +17,6 @@ public class Server {
                 System.out.println("¡Un nuevo cliente se ha conectado!");
                 ClientHandler clientHandler = new ClientHandler(socket);
                 Thread thread = new Thread(clientHandler);
-                // The start method begins the execution of a thread.
-                // When you call start() the run method is called.
-                // The operating system schedules the threads.
                 thread.start();
             }
         } catch (IOException e) {
@@ -39,8 +36,8 @@ public class Server {
 
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = new ServerSocket(1234);
+        System.out.println("SERVIDOR EN LINEA");
         Server server = new Server(serverSocket);
         server.startServer();
     }
-
 }

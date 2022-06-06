@@ -23,14 +23,14 @@ A continuación se dará una breve explicación del código del presente trabajo
 
 ### Clase Server
 Esta clase es la responsable de escuchar las conexiones entrantes o clientes, además de crear un objeto socket para comunicarse con los mismos.
--  [Server Class](https://github.com/AleS900/Design_Patterns/tree/main/src/main/java/singleton)
+-  [Server Class](https://github.com/AleS900/DS-Sockets-Practice/blob/main/src/main/java/Server.java)
 
 ### Clase ClientHandler
 Cuando un cliente se conecta, el servidor genera un hilo para manejar al cliente. De esta manera, el servidor puede manejar varios clientes al mismo tiempo.
 
 Esta palabra clave debe usarse en setters, pasando el objeto como argumento, y llamar a constructores alternativos (un constructor con un conjunto diferente de argumentos).
--  [ClientHandler Class](https://github.com/AleS900/Design_Patterns/tree/main/src/main/java/singleton)
+-  [ClientHandler Class](https://github.com/AleS900/DS-Sockets-Practice/blob/main/src/main/java/ClientHandler.java)
 
 ### Clase Client
 Es la responsable de escuchar las conexiones entrantes o clientes, además de crear un objeto socket para comunicarse con las mismas.
--  [Client Class](https://github.com/AleS900/Design_Patterns/tree/main/src/main/java/singleton)
+-  [Client Class](https://github.com/AleS900/DS-Sockets-Practice/blob/main/src/main/java/Client.java)

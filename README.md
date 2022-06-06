@@ -18,8 +18,13 @@ Esto significa que el servidor puede enviar mensajes a los clientes. Cada vez qu
     <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210902113314/ClientSocket.png" />
  </p>
 
-## Explicación
+## Explicación del Código
 A continuación se dará una breve explicación del código del presente trabajo:
+
+</br>
+ <p align="center">
+    <img src="https://i.ytimg.com/vi/-xKgxqG411c/maxresdefault.jpg" />
+ </p>
 
 ### Clase Server
 Esta clase es la responsable de escuchar las conexiones entrantes o clientes, además de crear un objeto socket para comunicarse con los mismos.
